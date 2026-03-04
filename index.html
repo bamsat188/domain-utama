@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -474,5 +473,48 @@ hs.src = ('//s10.histats.com/js15_as.js');
 })();</script>
 <noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?5005360&101" alt="" border="0"></a></noscript>
 <!-- Histats.com  END  -->
+<!-- Telegram  START  -->
+<style>
+#floatAds{
+position:fixed;
+right:18px;
+bottom:90px;
+width:65px;
+height:65px;
+background:#FFC107;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+box-shadow:0 5px 18px rgba(0,0,0,.4);
+cursor:pointer;
+z-index:999999;
+animation:floatPulse 2s infinite;
+}
+
+#floatAds img{
+width:34px;
+height:34px;
+}
+
+@keyframes floatPulse{
+0%{transform:scale(1)}
+50%{transform:scale(1.1)}
+100%{transform:scale(1)}
+}
+</style>
+
+<div id="floatAds">
+<img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png">
+</div>
+
+<script>
+const TELEGRAM_LINK = "https://t.me/+I3SMiVMaD9UyMWY1";
+
+document.getElementById("floatAds").onclick = ()=>{
+window.open(TELEGRAM_LINK,"_blank");
+};
+</script>
+<!-- Telegram END  -->
 </body>
 </html>
